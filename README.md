@@ -1,4 +1,4 @@
-# UserCrud
+# UserCRUD
 WebApp to menage users accounts
 
 My first webapp where i used:
@@ -7,5 +7,5 @@ My first webapp where i used:
 - Servlets,
 - OOP,
 - MySQL,
-- DAO class from my repositories UserDao,
+- DAO class from my own repositories UserDao,
 - Maven
