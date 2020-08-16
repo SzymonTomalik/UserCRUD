@@ -9,7 +9,7 @@
   <div class="d-sm-flex align-items-center justify-content-between mb-4">
     <h1 class="h3 mb-0 text-gray-800">UsersCRUD</h1>
     <a href="<c:url value="/users/add"></c:url>" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i
-          class="fas fa-download fa-sm text-white-50"></i> Dodaj użytkownika</a>
+          class="fas fa-download fa-sm text-white-50"></i> Add New User</a>
   </div>
 
 
@@ -18,14 +18,14 @@
     <!-- User data -->
     <div class="card shadow mb-4" style="width: 100%">
       <div class="card-header py-3">
-        <h6 class="m-0 font-weight-bold text-primary">Lista użytkowników</h6>
+        <h6 class="m-0 font-weight-bold text-primary">Users List</h6>
       </div>
       <table class="table">
         <tr>
           <th>Id</th>
-          <th>Nazwa użytkownika</th>
-          <th>Email</th>
-          <th>Akcja</th>
+          <th>User Name</th>
+          <th>Em@il</th>
+          <th>Action</th>
         </tr>
         <c:forEach items="${users}" var="user">
           <tr>
@@ -33,9 +33,9 @@
             <td>${user.userName}</td>
             <td>${user.email}</td>
             <td>
-              <a href="<c:url value="/users/delete?id=${user.id}"/>">Usuń</a>
-              <a href="<c:url value="/users/edit?id=${user.id}"/>">Edytuj</a>
-              <a href="<c:url value="/users/show?id=${user.id}"/>">Pokaż</a>
+              <a href="<c:url value="/users/delete?id=${user.id}"/>">Delete</a>
+              <a href="<c:url value="/users/edit?id=${user.id}"/>">Edit</a>
+              <a href="<c:url value="/users/show?id=${user.id}"/>">Details</a>
             </td>
           </tr>
         </c:forEach>

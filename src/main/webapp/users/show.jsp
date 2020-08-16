@@ -10,7 +10,7 @@
         <h1 class="h3 mb-0 text-gray-800">UsersCRUD</h1>
         <a href="<c:url value="/users/add"></c:url>"
            class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i
-                class="fas fa-download fa-sm text-white-50"></i> Dodaj użytkownika</a>
+                class="fas fa-download fa-sm text-white-50"></i> Add New User</a>
     </div>
 
 
@@ -19,7 +19,7 @@
         <!-- User data -->
         <div class="card shadow mb-4" style="width: 100%">
             <div class="card-header py-3">
-                <h6 class="m-0 font-weight-bold text-primary">Szczegóły użytkownika</h6>
+                <h6 class="m-0 font-weight-bold text-primary">User Details</h6>
             </div>
             <div class="card-body" style="width: 100%">
                 <table class="table">
@@ -28,11 +28,11 @@
                         <td>${showUser.id}</td>
                     </tr>
                     <tr>
-                        <th>Nazwa użytkownika</th>
+                        <th>User Name</th>
                         <td>${showUser.userName}</td>
                     </tr>
                     <tr>
-                        <th>Email</th>
+                        <th>Em@il</th>
                         <td>${showUser.email}</td>
                     </tr>
                 </table>
