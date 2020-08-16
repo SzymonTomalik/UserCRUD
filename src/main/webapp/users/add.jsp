@@ -1,14 +1,6 @@
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<html>
-<head>
-    <%@ include file="/WEB-INF/headerHead.jspf" %>
-    <title>SB Admin 2 - Add new User</title>
-</head>
-
-<body id="page-top">
-
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%--header--%>
 <%@ include file="/WEB-INF/header.jspf" %>
 
 <div class="container-fluid">
@@ -45,7 +37,8 @@
                         <input type="password" name="password" placeholder="Hasło użytkownika" required>
                     </label>
                     <br/>
-                    <button class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm" type="submit">Zapisz</button>
+                    <button class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm" type="submit">Zapisz
+                    </button>
                 </form>
             </div>
         </div>
