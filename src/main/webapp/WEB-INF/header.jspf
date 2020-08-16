@@ -52,7 +52,7 @@
         <div class="text-center d-none d-md-inline">
 
             <a href="/users/list">
-                <button type="button" class="rounded-circle border-0" id="sidebarToggle"></button>
+                <button class="rounded-circle border-0" id="sidebarToggle"></button>
             </a>
         </div>
 
